@@ -1,0 +1,32 @@
+{
+  "name": "week-one",
+  "version": "1.0.0",
+  "description": "First node js exercice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev":"nodemon --watch ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhonCamargo07/node-week-one.git"
+  },
+  "keywords": [
+    "exports",
+    "modules"
+  ],
+  "author": "Jhon Camargo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JhonCamargo07/node-week-one/issues"
+  },
+  "homepage": "https://github.com/JhonCamargo07/node-week-one#readme",
+  "dependencies": {
+    "sweetalert2": "^11.4.37"
+  },
+  "devDependencies": {
+    "jsonserver": "^0.1.6",
+    "nodemon": "^2.0.20"
+  }
+}
